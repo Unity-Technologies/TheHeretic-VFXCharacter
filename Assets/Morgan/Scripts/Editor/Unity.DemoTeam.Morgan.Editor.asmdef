@@ -1,0 +1,17 @@
+{
+    "name": "Unity.DemoTeam.Morgan.Editor",
+    "references": [
+        "GUID:479528a2307ff1f4fa7b20a770ae61d6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

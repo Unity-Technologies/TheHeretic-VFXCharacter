@@ -1,0 +1,16 @@
+{
+    "name": "Unity.DemoTeam.Morgan",
+    "references": [
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1",
+        "GUID:59d6396f0bbb4ef4e969a34ee6567d7e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,4266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &254716998207128843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3229619429899027667}
+  - component: {fileID: 6550167026736235518}
+  - component: {fileID: 4876124921381637949}
+  - component: {fileID: 1664846541359829237}
+  - component: {fileID: 3347050738051031244}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Body_Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3229619429899027667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254716998207128843}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &6550167026736235518
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254716998207128843}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: a2ac9121fc021cd4681d4c9d66a87ece, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 7040
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 84
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &4876124921381637949
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254716998207128843}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &1664846541359829237
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254716998207128843}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3347050738051031244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254716998207128843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -6068493916780315452, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &362587382684043993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6002204131038285843}
+  - component: {fileID: 8033652489426232916}
+  - component: {fileID: 3618510834917785075}
+  - component: {fileID: 5077315666598198638}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Eyes_Energy_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6002204131038285843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362587382684043993}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &8033652489426232916
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362587382684043993}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 72c883497bfff2f41b1e0db629f10163, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &3618510834917785075
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362587382684043993}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &5077315666598198638
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362587382684043993}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2088514906302386484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4474674564468967393}
+  - component: {fileID: 4591357447742929718}
+  - component: {fileID: 4181329494194426027}
+  - component: {fileID: 8601590288336076573}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Eyes_Energy_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474674564468967393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088514906302386484}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &4591357447742929718
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088514906302386484}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 72c883497bfff2f41b1e0db629f10163, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &4181329494194426027
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088514906302386484}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &8601590288336076573
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088514906302386484}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &3267506041011417325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5059879199796416205}
+  - component: {fileID: 1110808664312561984}
+  - component: {fileID: 5589046266656382510}
+  - component: {fileID: 8206710517437764609}
+  - component: {fileID: 3844932792528328448}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Face_Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5059879199796416205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267506041011417325}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &1110808664312561984
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267506041011417325}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 818b1d8d4eccd7749a4cee02fa4e6647, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 7040
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 84
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &5589046266656382510
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267506041011417325}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &8206710517437764609
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267506041011417325}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3844932792528328448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267506041011417325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -6068493916780315452, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &3278260365815858822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4087237729017541402}
+  - component: {fileID: 7984680243481978185}
+  - component: {fileID: 818786850520513247}
+  - component: {fileID: 5849773234754045493}
+  m_Layer: 14
+  m_Name: VFXGraph_M_Helmet_Calm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4087237729017541402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278260365815858822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &7984680243481978185
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278260365815858822}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: c643220887d42504ea914a6c015b7e27, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 1839
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 43
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &818786850520513247
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278260365815858822}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &5849773234754045493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278260365815858822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -4161029396976639629, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &3911020040675936877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799800527680418107}
+  - component: {fileID: 5608857649838960293}
+  - component: {fileID: 1097137884656354210}
+  - component: {fileID: 2624602744990495588}
+  - component: {fileID: 5040256735917815968}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Cloth_Calm_Details
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799800527680418107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911020040675936877}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &5608857649838960293
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911020040675936877}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 3cfcd63b878856045bf8ce586bb3bec6, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 3944
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 63
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1097137884656354210
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911020040675936877}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &2624602744990495588
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911020040675936877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5040256735917815968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911020040675936877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 4562867657429248536, guid: b82f0e03ca943f843a53a8032b3fb71a, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &4433103120227619862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4470383525633308665}
+  - component: {fileID: 3957418578482796181}
+  - component: {fileID: 2627431455994836981}
+  - component: {fileID: 7267199309550464628}
+  - component: {fileID: 388232873339384880}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Cloth_Calm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4470383525633308665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433103120227619862}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &3957418578482796181
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433103120227619862}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 5b10a70000f4d124f9dfd3f696ef352b, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 3944
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 63
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &2627431455994836981
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433103120227619862}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &7267199309550464628
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433103120227619862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &388232873339384880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433103120227619862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 4562867657429248536, guid: b82f0e03ca943f843a53a8032b3fb71a, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &5218667150208034912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7208138915299156908}
+  - component: {fileID: 1811836178789032267}
+  - component: {fileID: 1469601045083721086}
+  - component: {fileID: 262196650656586480}
+  - component: {fileID: 4384754196733710704}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Cloth_Angry_Details
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7208138915299156908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218667150208034912}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &1811836178789032267
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218667150208034912}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 769124ae086bcb24c94d572b99d1402c, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 3944
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 63
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1469601045083721086
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218667150208034912}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &262196650656586480
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218667150208034912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4384754196733710704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218667150208034912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 4562867657429248536, guid: b82f0e03ca943f843a53a8032b3fb71a, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &5618112626440493784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9028652706747516264}
+  - component: {fileID: 8923167259368171872}
+  - component: {fileID: 8279737292226619202}
+  - component: {fileID: 2206203522187930164}
+  m_Layer: 14
+  m_Name: VFXGraph_M_Helmet_Angry_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9028652706747516264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618112626440493784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &8923167259368171872
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618112626440493784}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 73ac8762e26d3ea498128c62ffde2a7f, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 474
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 22
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &8279737292226619202
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618112626440493784}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &2206203522187930164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618112626440493784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -244008652947179382, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &6149636404366996293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7648226414841499398}
+  - component: {fileID: 5670020548446749595}
+  - component: {fileID: 8715729932432728416}
+  - component: {fileID: 49701448550056551}
+  - component: {fileID: 289657518410590966}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Body_Calm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7648226414841499398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149636404366996293}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &5670020548446749595
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149636404366996293}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: a7162baa7faccdd408eb944b6668a26d, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 36336
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 93
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &8715729932432728416
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149636404366996293}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &49701448550056551
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149636404366996293}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &289657518410590966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149636404366996293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -6068493916780315452, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &6490625533599301740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5500340245510172750}
+  - component: {fileID: 7896093820084155776}
+  - component: {fileID: 2227003616365534511}
+  m_Layer: 0
+  m_Name: VFXGraph_M_OuterLayer_Calm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5500340245510172750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490625533599301740}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!2083052967 &7896093820084155776
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490625533599301740}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 85f4683cfae3acc49824e485602cfc28, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array: []
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &2227003616365534511
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490625533599301740}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &6517703166940357393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5394762905525627029}
+  - component: {fileID: 7041796328830216446}
+  - component: {fileID: 186256856828624088}
+  - component: {fileID: 8552504773818293047}
+  - component: {fileID: 5311360128771279688}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Face_Calm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5394762905525627029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517703166940357393}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &7041796328830216446
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517703166940357393}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: dca82075f58ee5543b1bd8966a598b98, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 7040
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 84
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &186256856828624088
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517703166940357393}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &8552504773818293047
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517703166940357393}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5311360128771279688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517703166940357393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -6068493916780315452, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &7937754180543251518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2399296188443802566}
+  - component: {fileID: 8443381873762604923}
+  - component: {fileID: 685550009491874020}
+  - component: {fileID: 7341220658257936067}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2399296188443802566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937754180543251518}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &8443381873762604923
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937754180543251518}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 39db95bc129723640820711d37235ae7, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &685550009491874020
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937754180543251518}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &7341220658257936067
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937754180543251518}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &7941877960946592077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95020260406841250}
+  - component: {fileID: 3736884401826766951}
+  - component: {fileID: 354156876439393837}
+  - component: {fileID: 3262143198313836067}
+  - component: {fileID: 8824597587775865533}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Eye_Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &95020260406841250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941877960946592077}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &3736884401826766951
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941877960946592077}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 4b2ddad7ebb08cb47bc8c92155582fb0, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 897
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 30
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &354156876439393837
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941877960946592077}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &3262143198313836067
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941877960946592077}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8824597587775865533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941877960946592077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 3394927166468437946, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &8514699122208095101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930680690536529653}
+  - component: {fileID: 1332359873539665887}
+  - component: {fileID: 3525368723246873042}
+  m_Layer: 0
+  m_Name: VFXGraph_M_OuterLayer_Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930680690536529653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514699122208095101}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!2083052967 &1332359873539665887
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514699122208095101}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 4a6845473f31db64aba0520f1487e215, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array: []
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &3525368723246873042
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514699122208095101}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8564214856996260659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2691668174936890405}
+  m_Layer: 0
+  m_Name: VFXGraph_Null
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2691668174936890405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564214856996260659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7648226414841499398}
+  - {fileID: 3229619429899027667}
+  - {fileID: 5394762905525627029}
+  - {fileID: 5059879199796416205}
+  - {fileID: 1034185361419894643}
+  - {fileID: 5898580122821627890}
+  - {fileID: 95020260406841250}
+  - {fileID: 4470383525633308665}
+  - {fileID: 1799800527680418107}
+  - {fileID: 1763725644457731434}
+  - {fileID: 7208138915299156908}
+  - {fileID: 5500340245510172750}
+  - {fileID: 930680690536529653}
+  - {fileID: 4087237729017541402}
+  - {fileID: 2080356639505688400}
+  - {fileID: 9028652706747516264}
+  - {fileID: 4474674564468967393}
+  - {fileID: 6002204131038285843}
+  - {fileID: 2399296188443802566}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9035250406143678398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5898580122821627890}
+  - component: {fileID: 4843597776109673852}
+  - component: {fileID: 4687370735274064917}
+  - component: {fileID: 3030332895204378614}
+  - component: {fileID: 6911539161465689347}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Eye_Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5898580122821627890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035250406143678398}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &4843597776109673852
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035250406143678398}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: c587f17d88f1c1a4dada9187e3870f5a, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 903
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 31
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &4687370735274064917
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035250406143678398}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &3030332895204378614
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035250406143678398}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6911539161465689347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035250406143678398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 7964522940832627147, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &9050816603911419092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080356639505688400}
+  - component: {fileID: 5566890152862884401}
+  - component: {fileID: 1908656627496008495}
+  - component: {fileID: 6861409408670927496}
+  m_Layer: 14
+  m_Name: VFXGraph_M_Helmet_Angry_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080356639505688400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050816603911419092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &5566890152862884401
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050816603911419092}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: af09027b06bfef8428eee3c2d1bd4cbf, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array: []
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 474
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 22
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1908656627496008495
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050816603911419092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &6861409408670927496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050816603911419092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -244008652947179382, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &9157162527600218855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034185361419894643}
+  - component: {fileID: 192802090467882210}
+  - component: {fileID: 945639658817309813}
+  - component: {fileID: 637688762561011216}
+  - component: {fileID: 4294518030328047253}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Face_Details
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1034185361419894643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157162527600218855}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &192802090467882210
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157162527600218855}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: 62ebc8afefd6620458905edaa1801e63, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 7040
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 84
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &945639658817309813
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157162527600218855}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &637688762561011216
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157162527600218855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4294518030328047253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157162527600218855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: -6068493916780315452, guid: 1957bbf5c1a8a554f8e8a24a04248285, type: 3}
+  m_SubMeshes: 0101
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}
+--- !u!1 &9206003321835373889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763725644457731434}
+  - component: {fileID: 7660698882104307533}
+  - component: {fileID: 5162346208338732589}
+  - component: {fileID: 1985257617606196275}
+  - component: {fileID: 7699451911147463133}
+  m_Layer: 0
+  m_Name: VFXGraph_M_Cloth_Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763725644457731434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206003321835373889}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2691668174936890405}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &7660698882104307533
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206003321835373889}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: ad814019f3992e34fbae930b15ac8ac9, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 1
+        m_Name: SetMinSize
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: SetMaxSize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Morph
+        m_Overridden: 1
+      - m_Value: 0.015
+        m_Name: Transition
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 0, y: 1.204, z: 0}
+        m_Name: SDF_Location
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 158.67935, z: 0}
+        m_Name: ESDF_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -4.78, y: 0.55, z: -0.28}
+        m_Name: ESDF_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ESDF_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.1428, y: 1.9065, z: 2.7079}
+        m_Name: Eye_Right_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.2123, y: 1.9032, z: 2.7056}
+        m_Name: Eye_Left_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Right_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0582, y: 2.6735, z: -0.0546}
+        m_Name: Eye_Right_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Right_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Eye_Left_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0.011299998, y: 2.6702, z: -0.056900024}
+        m_Name: Eye_Left_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Eye_Left_Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: -0, y: 0, z: 0}
+        m_Name: Morph_Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: -0.0053, y: 1.9547, z: -0.1549}
+        m_Name: Morph_Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Morph_Transform_scale
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array:
+      - m_Value: 800
+        m_Name: Resolution
+        m_Overridden: 1
+      - m_Value: 3944
+        m_Name: spawn_count
+        m_Overridden: 1
+      - m_Value: 63
+        m_Name: spawn_uv_size
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Albedo_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Normals_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Position_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Tangents_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: VertexColor_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID_B
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: ObjectID
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: spawn_uv
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &5162346208338732589
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206003321835373889}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 8
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &1985257617606196275
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206003321835373889}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7699451911147463133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206003321835373889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edc3b25cc5df2345a0f4bd3d7bcf360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mesh: {fileID: 4562867657429248536, guid: b82f0e03ca943f843a53a8032b3fb71a, type: 3}
+  m_SubMeshes: 01
+  m_TextureSize: 152
+  m_Compute: {fileID: 7200000, guid: 5d9519334dd583c4c96995134cca65f2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 78e5c1b18e95b3e40a08a607a85ec5c8, type: 3}

@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: b82f0e03ca943f843a53a8032b3fb71a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f53f5fc499d31e44b9deee84d28a9ee8, type: 3}
+  rootGameObjectId: 03_MorganDecends_Morph_v3
+  rootGameObjectName: 03_MorganDecends_Morph_v3
+  streamSettings:
+    normals: 1
+    tangents: 1
+    cameraAspectRatio: 2
+    importVisibility: 1
+    scaleFactor: 0.01
+    swapHandedness: 1
+    flipFaces: 0
+    interpolateSamples: 1
+    importPointPolygon: 1
+    importLinePolygon: 1
+    importTrianglePolygon: 1
+    importXform: 1
+    importCameras: 1
+    importMeshes: 1
+    importPoints: 0
+  abcStartTime: 0.03333333333333333
+  abcEndTime: 33.33333333333333
+  startTime: 0.03333333333333333
+  endTime: 33.33333333333333
+  importWarning: 
+  varyingTopologyMeshNames: []
+  splittingMeshNames: []
+  firstImport: 0

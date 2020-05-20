@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 9b84c330de497af4793fd7b376afed13, type: 3}
+  title: 'The Heretic: VFX Character (Morgan)'
+  sections:
+  - heading: Introduction
+    text: "This project is centered around Morgan, the vfx-based character introduced
+      in the 2nd part of The Heretic short film created by Unity\u2019s Demo Team."
+    linkText: Learn more about The Heretic
+    url: https://unity3d.com/the-heretic
+  - heading: 
+    text: 'Working on this character required pushing the capabilities of the VFX
+      Graph to its limits. We are releasing the character publicly with the intention
+      of showcasing some of the approaches that can be taken when building complex
+      vfx-driven characters.  '
+    linkText: Learn more about the Visual Effects Graph
+    url: https://unity.com/visual-effect-graph
+  - heading: Scope
+    text: From the story perspective, Morgan had a few clear requirements like being
+      able to morph between multiple states, calm and angry, female and male or a
+      combination of these, grow in height multiple times over, crumble and a few
+      others.
+    linkText: 
+    url: 
+  - heading: 
+    text: The appearance on the other hand was less defined so one technical requirement
+      was to build the character in a way that would allow for as much real-time
+      authoring as possible so we decided to make use of the VFX Graph.
+    linkText: 
+    url: 
+  - heading: Main Features
+    text: "\xB7 VFX Morphing: The effects covering Morgan can be morphed at any time
+      regardless if other effects like fire or crumbling are active."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Shape Morphing: The underlying skinned mesh can be morphed between
+      female and male shapes independently from the effect which adapt automatically."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Appearance Tweaks: Many parts of Morgan\u2019s visual appearance,
+      including how close the particles stick to the mesh, can be easily tweaked
+      from the custom custom inspector."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Fire: While it looks more like ambers than proper fire, this highly
+      customizable effect can be used to add an extra layer of intensity when required.
+      It was the last effect built, just a few weeks before the final deadline."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Crumble: As the name suggests, Morgan can crumble into pieces, with
+      several options for how this can happen. After the crumbling effect is triggered
+      you need to use either the Reset or the Recompile VFX Graph option to bring
+      the character back to its previous state."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Debug: Being able to debug properties early on was crucial for being
+      able to experiment with different versions of this character. Debug options
+      were built alongside each main feature."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Realtime Customization: Each of the features mentioned above has
+      several customization options exposed in Morgan\u2019s inspector, totalling
+      to over 300 parameters that can be animated over time if desired."
+    linkText: 
+    url: 
+  - heading: Customizing Morgan
+    text: "\xB7 You will find Morgan\u2019s controls and customization options on
+      the prefab inspector pane. "
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The main features are separated using fold-out menus that can be
+      expanded in order to access the options."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 In the Morgan Demo Scene, the prefab is located under Morgan_Root.
+      The cloth animated mesh (alembic) is placed under Morgan_Root as well."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The project has a timeline (Timeline_MorganDescends) that plays an
+      animation with the character getting down the stairs. "
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The first track of the timeline has a few of Morgan\u2019s parameters
+      animated - this can be muted (select the track and press M) or removed if you
+      want to customize Morgan while their animation is playing."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The recommended workflow for customizing Morgan while the animation
+      is active is to lock both the timeline and Morgan\u2019s inspector pane."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Be aware that changing the particles with high polycount meshes can lead to performance decrease."
+    linkText: 
+    url: 
+  - heading: How It Works
+    text: "\xB7 Morgan is made of 17 visual effect graphs each covering a different
+      part - this was done for easier management."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The position, normals and tangents for the base meshes are rendered in UV space, which are then set as texture parameters in the vfx graphs - this allows us to position and orient the particles correctly on the character.  "
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The vertex color and the albedo texture are also rendered in UV space
+      - these textures are used to manipules certain properties like size, scale,
+      angle and pivot."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 A custom editor centralizes all the graphs making up Morgan - this
+      makes it easy to update shared properties fast. There are about 300 parameters
+      exposed but there\u2019s no real limit for how many can be added, however too
+      many parameters in the interface can make it less practical to work with."
+    linkText: 
+    url: 
+  - heading: Known Issues
+    text: "\xB7 Currently there is a known bug that prevents the rearrangement of
+      parameters in the vfx graph blackboard. As a consequence, at this point the
+      parameters are not sorted and categorized properly."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Displaying some of the graphs inspector pane can cause a performance
+      drop."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The scene view Selection Outline can cause a drop in performance
+      when selecting Morgan."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 The graphs and scripts contain some legacy elements and hardcoded
+      values carried over The Heretic."
+    linkText: 
+    url: 
+  - heading:
+    text: "\xB7 The Reset button on Morgan\u2019s prefab inspector is your best friend
+      if it misbehaves or if you want to bring the character back after crumbling."
+    linkText: 
+    url: 
+  - heading: 
+    text: "\xB7 Work on Morgan was started on an early version of the VFX Graph,
+      without features like Subgraphs for example. While some parts of the graphs
+      have been converted to Subgraphs, they are still not as streamlined as they
+      would have been if built from the ground up today."
+    linkText: 
+    url: 
+  loadedLayout: 1
