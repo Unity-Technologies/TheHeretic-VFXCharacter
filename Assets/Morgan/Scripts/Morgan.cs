@@ -2021,6 +2021,9 @@ public class Morgan : MonoBehaviour
     //Sets a 2D Texture exposed parameters
     public void VfSetTexture(string parameterName, Texture2D texture)
     {
+        if (texture == null)
+            return;
+        
         foreach (VisualEffect vf in morganVFXGraphs)
         {
             if (vf.HasTexture(parameterName)) vf.SetTexture(parameterName, texture);
